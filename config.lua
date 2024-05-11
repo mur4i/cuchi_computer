@@ -3,11 +3,11 @@ Config = {}
 -- JOIN MY DISCORD: https://discord.gg/qvFmwj2a2T
 
 -- Shared
-Config.Framework = "esx" -- esx/qbcore
-Config.FrameworkResourceName = "es_extended" -- the framework resource name (e.g.: "es_extended" or "qb-core")
+Config.Framework = "qbcore" -- esx/qbcore
+Config.FrameworkResourceName = "qb-core" -- the framework resource name (e.g.: "es_extended" or "qb-core")
 Config.FrameworkOptionalExportName = "" -- if you changed the function's name to get the object, place the new here
 
-Config.Locale = "EN" -- EN/FR/ES/DA/DE
+Config.Locale = "PT" -- EN/FR/ES/DA/DE
 
 Config.UseItem = "laptop" -- set the item that will be used to display the interface (to disable it, let it empty)
 
@@ -131,7 +131,7 @@ else
         joaat("tr_prop_tr_monitor_01b"),
         joaat("sf_prop_sf_monitor_stu_01a")
     }
-    Config.TargetSystem = false -- if true then you must have ox_target or qb-target, if false prop interactions will be based on a zone check
+    Config.TargetSystem = true -- if true then you must have ox_target or qb-target, if false prop interactions will be based on a zone check
     Config.TargetType = "ox" -- "ox"/"qb" for ox_target or qb-target
 
     Config.UsablePositions = { -- positions where players can open a computer free to use

@@ -5,7 +5,7 @@ AppConfig = {
         timeBeforeAutomaticDeletion = 14 * 86400 -- seconds (basically: days * seconds_in_one_day) | Time before the row in the database is deleted
     },
     Mail = {
-        domain = "@fivemail.com", --> username@fivemail.com
+        domain = "@mriqbox.com", --> username@fivemail.com
     },
     Addresses = {
         "chat.incognito.net",
